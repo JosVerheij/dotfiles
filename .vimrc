@@ -1,7 +1,14 @@
 " Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+"set background=dark
+"colorscheme solarized
+"let g:solarized_termtrans=1
+
+" Use the Ayu Light theme
+set termguicolors     " enable true colors support
+"let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+"let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
 
 " Make Vim more useful
 set nocompatible
